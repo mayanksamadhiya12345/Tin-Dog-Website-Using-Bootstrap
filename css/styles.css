@@ -1,0 +1,200 @@
+body{
+    font-family: 'Montserrat-Black, sans-serif';
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat-Bold, sans-serif';
+}
+
+h1 {
+    font-weight: bold;
+    size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2{
+    font-weight: bold;
+    size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-weight: bold;
+    font-weight: 1.5rem;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+
+/* Title */
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+    
+}
+
+/* navigation bar */
+
+.navbar-brand {
+    font-family: 'Ubuntu, sans-serif';
+    font-size: 2.5 rem;
+    font-weight: bold;
+}
+
+.navbar{
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.3rem;
+    font-family: 'Montserrat-light';
+}
+
+/* Download Button */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* title image */
+
+.rotate-img {
+    background-color: transparent;
+    transform: rotate(25deg);
+    width: 42%;
+    position: absolute;
+    right: 30%;
+}
+
+
+/* Features */
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box{
+    padding: 5%;
+}
+
+/* Feature Icons */
+.icons{
+    color: #ef8172;
+    padding-bottom: 2%;
+}
+
+.icons:hover{
+    color: #ff4c68;
+}
+
+/* testimonials */
+
+#testimonials{
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* press */
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 5%;
+}
+
+.press-img{
+    width: 8%;
+    margin: 20px 15px 10px;
+}
+
+/* pricing */
+#pricing{
+    padding: 100px;
+}
+
+.pricing-col{
+    padding: 3% 2%; 
+}
+
+
+/* CTA */
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+    
+}
+
+.cta-h3{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-family: 'Montserrat-Bold';
+}
+
+
+/* footer */
+#footer{
+    background-color: #fff;
+    padding: 4% 15% 1%;
+}
+
+.footer-icon{
+    border-style: none;
+    padding: 1% 1%;
+    background-color: #fff;
+}
+
+.footer-icon:hover{
+    color: #ff4c68;
+}
+
+/* go-to-top */
+.go-to-top{
+    position: absolute;
+    right: 2%;
+    text-decoration: none;
+    font-size: 80%;
+}
+
+.go-to-top:hover{
+    text-decoration: none;
+}
+
+/* Responsive using Media */
+@media (max-width: 992px){
+    #title{
+        text-align: center;
+    }
+    .rotate-img{
+        position: static;
+        transform: rotate(0);
+    }
+}
